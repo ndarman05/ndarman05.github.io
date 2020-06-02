@@ -101,7 +101,7 @@
     }
 
     .main {
-        margin-top: 20px;
+        margin: 20px 0 0;
     }
 
     .box {
@@ -120,6 +120,10 @@
 @media (max-width: 790px) {
     .container{
         max-width: 768px;
+    }
+
+    .avatar {
+        max-width: 300px;
     }
 
     .full_name {

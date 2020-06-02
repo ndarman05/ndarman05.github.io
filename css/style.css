@@ -80,7 +80,7 @@
 
 .box-subtitle {
     font-size: 1.2rem;
-    line-height: 1.3rem;
+    font-weight: 400;
 }
 
 .box-item {
@@ -124,11 +124,13 @@
     }
 
     .avatar {
-        max-width: 300px;
+        max-width: 320px;
     }
 
     .full_name {
+        margin-top: 25px;
         font-size: 1.8rem;
+        font-weight: 900;
     }
 
     .sn-links {
@@ -136,16 +138,16 @@
     }
 
     .box-title {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .box-subtitle {
-        font-size: .8rem;
-        font-weight: bold;
+        font-size: .9rem;
+        font-weight: 400;
     }
 
     .box-mute-text {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .to-inline {

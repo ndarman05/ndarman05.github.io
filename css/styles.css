@@ -29,6 +29,10 @@ header {
   display: none;
 }
 
+.page-info {
+  display: none;
+}
+
 
 .main-content {
   display: flex;
@@ -86,4 +90,12 @@ p {
   .link-to-mysite {
     display: block;
   }
+
+  .page-info {
+    display: block;
+  }
+}
+
+.qr {
+  max-width: 80%;
 }

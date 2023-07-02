@@ -99,3 +99,7 @@ p {
 .qr {
   max-width: 80%;
 }
+
+.border-bottom > li > a {
+  text-decoration: none;
+}

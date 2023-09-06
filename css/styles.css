@@ -86,13 +86,35 @@ p {
   margin-bottom: 30px;
 }
 
+.center-bottom-text {
+  display: none;
+}
+
 @media print {
   .link-to-mysite {
     display: block;
   }
 
+  .qr {
+    position: absolute;
+    z-index: 2;
+    bottom: 1px;
+    right: 1px;
+    height: 70px;
+  }
+
   .page-info {
     display: block;
+  }
+
+  .center-bottom-text {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    right: 1px;
+    top: 40vh;
+    font-size: 8px;
+    transform: rotate(90deg);
   }
 }
 
